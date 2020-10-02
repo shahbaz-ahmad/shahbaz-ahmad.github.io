@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Desktop Analytics Explaination
+title:  Publish Web Application using Azure AD Application Proxy
 categories: [Azure,Application Proxy,Publish Web Application]
 ---
 This article will talk about publishing of on-premises application to external users (internet connected). The users will be able to access the on-premises web-based application without connecting to the corporate VPN.
