@@ -12,7 +12,7 @@ Application Proxy is a feature of Azure AD that enables users to access on-premi
 
 >The Application Proxy Connector doesn't require you to open inbound connections through your firewall. User traffic terminates at the Application Proxy Service (in Azure AD). The Application Proxy Connector (on-premises) is responsible for the rest of the communication.
 
-*For more information https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy*
+*For more information, visit [Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy)*
 
 # Scenario Introduction
 Customer asked to publish its in-house running web application to the users when they are not on the corporate network.
@@ -69,14 +69,14 @@ To get started, first you need to install the Application Proxy Connector in you
 
     ![](/images/aadap/aadap_connector_installing.png)
 
-10. During installation it will prompt for Azure tennant credentials where we'll be configuring Application Proxy. Enter credentials and in a moment you will have successful installation of the connector.
+10. During installation it will prompt for Azure tennant credentials where we'll be configuring Application Proxy. Enter credentials and in a moment you will have successful installation of the connector
 
 ### Verify Connector
 - To verify on the server where connector is installed, open **services.msc** and locate these two services and their status should be *Running*
 
     ![](/images/aadap/aadap_connector_services.png)
 
-- To verify through azure portal, select **Azure Active Directory | Application Proxy**. The connector status will show as **Active**.
+- To verify through azure portal, select **Azure Active Directory | Application Proxy**. The connector status will show as **Active**
     ![](/images/aadap/aadap_connector_status.png)
 
 
@@ -85,6 +85,7 @@ I have configured a one page web application, the details can be seen here. To p
 
 - Go to Azure **Active Directory | Enterprise Applications**
 - Click **On-premises application**
+
     ![](/images/aadap/aadap_publish_webapp.png)
 
 - Fill the information
