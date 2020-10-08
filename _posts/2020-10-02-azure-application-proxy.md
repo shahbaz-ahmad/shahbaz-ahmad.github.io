@@ -8,11 +8,11 @@ This article will talk about publishing of on-premises application to external u
 # What is Azure AD Application Proxy (AADAP)
 Application Proxy is a feature of Azure AD that enables users to access on-premises web applications from a remote client. Azure Active Directory Application Proxy provides secure remote access to on-premises web applications. Users can access both **cloud and on-premises applications** through an external URL and authentication can be provided by Azure AD or Passthrough to the on-premises authentication provider like Active Directory Domain Controller.
 
-**Note**
 
->The Application Proxy Connector doesn't require you to open inbound connections through your firewall. User traffic terminates at the Application Proxy Service (in Azure AD). The Application Proxy Connector (on-premises) is responsible for the rest of the communication.
+>The Application Proxy Connector doesn't require you to open inbound connections through your firewall. User traffic terminates at the Application Proxy Service (in Azure AD). The Application Proxy Connector (on-premises) is responsible for the rest of the communication. <br>
+*For more information, visit <a href="https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy" target="_blank">Application Proxy</a>*
 
-*For more information, visit [Application Proxy](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy)*
+<br>
 
 # Scenario Introduction
 Customer asked to publish its in-house running web application to the users when they are not on the corporate network.
