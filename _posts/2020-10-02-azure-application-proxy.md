@@ -12,7 +12,7 @@ Application Proxy is a feature of Azure AD that enables users to access on-premi
 >The Application Proxy Connector doesn't require you to open inbound connections through your firewall. User traffic terminates at the Application Proxy Service (in Azure AD). The Application Proxy Connector (on-premises) is responsible for the rest of the communication. <br>
 *For more information, visit <a href="https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy" target="_blank">Application Proxy</a>*
 
-<br>
+<br/>
 
 # Scenario Introduction
 Customer asked to publish its in-house running web application to the users when they are not on the corporate network.
@@ -76,7 +76,7 @@ To get started, first you need to install the Application Proxy Connector in you
     ![](/images/aadap/aadap_connector_services.png)
 
 - To verify through azure portal, select **Azure Active Directory | Application Proxy**. The connector status will show as **Active**
-    ![](/images/aadap/aadap_connector_status.png)
+    ![](/images/aadap/aadap_connector_status.jpg)
 
 
 # Publishing On-Premises Web Application
@@ -87,25 +87,28 @@ To publish this on-premises application to external users:
 - Go to Azure Active Directory and click **Enterprise Applications**
 - Click **On-premises application**
 
-    ![](/images/aadap/aadap_publish_webapp.png)
+    ![](/images/aadap/aadap_publish_webapp.jpg)
 
 - Fill the information
     - Internal URL (*on-premises URL*): http://gswebsite.greysky.local
-    - External URL (*internet accessible*): chose the application name and it will complete the external URL by concatinating the default app proxy URL. For example, https://greyskylearning-sysshell.msappproxy.net/
+    - External URL (*internet accessible*): chose the application name and it will complete the external URL by concatinating the default app proxy URL. For example, https://*******.msappproxy.net/
     - Pre-Authentication: Passthrough (or chose Azure AD)
-    ![](/images/aadap/aadap_publish_webapp2.png)
+    ![](/images/aadap/aadap_publish_webapp2.jpg)
 
 # Testing Published Web Application
 lets test our published application on a device that has no corporate connectivity, but internet is available.
 
-- Open a internet browser and browse the external URL i.e. https://greyskylearning-sysshell.msappproxy.net/
+- Open a internet browser and browse the external URL i.e. https://*******.msappproxy.net/
 
-    ![](/images/aadap/aadap_test_webapp1.png)
+    ![](/images/aadap/aadap_test_webapp1.jpg)
 
 - Because I configured the Enterprise Application's authentication as **Passthrough** so browser is simple passing the request to the on-premises application for authentication which is configured as *Windows Authentication* required.
 - Enter the on-premises domainname\username and password who has permissions to access this web application.
 - The on-premises domain controller will authenticate & authorize the user to access the web application.
-    ![](/images/aadap/aadap_test_webapp2.png)
+    ![](/images/aadap/aadap_test_webapp2.jpg)
 
+<br/>
 
-    *The above example is easy to setup using just passthrough authentication. In coming weeks, I'll talk about configuring SSO as well as Conditional Access policies for on-premises web application which sometimes can be tricky to workout.*
+*The above example is easy to setup using just passthrough authentication. In coming weeks, I'll talk about configuring SSO as well as Conditional Access policies for on-premises web application which sometimes can be tricky to workout.*
+
+<br/>
