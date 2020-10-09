@@ -31,8 +31,7 @@ My on-premises lab environment consists of:
     
 3. Web Server running a web application (Windows Server 2019)
 
-    *I have configured a basic web application for this lab. You can find more details <a href="2020-10-02-web-app-windows-authentication.md" target="_blank">here</a>*
-
+    *I have configured a basic web application for this lab. You can find more details <a href="./2020-10-02-web-app-windows-authentication.md" target="_blank">here</a>*
 
 # Implementing Azure AD Application Proxy (AADAP)
 
@@ -81,7 +80,7 @@ To get started, first you need to install the Application Proxy Connector in you
 
 
 # Publishing On-Premises Web Application
-I have configured a one page web application, the details can be seen <a href="2020-10-02-web-app-windows-authentication.md" target="_blank">here</a>. 
+I have configured a one page web application, the details can be seen <a href="./2020-10-02-web-app-windows-authentication.md" target="_blank">here</a>. 
 
 To publish this on-premises application to external users:
 
