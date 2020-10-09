@@ -38,7 +38,7 @@ My on-premises lab environment consists of:
 To get started, first you need to install the Application Proxy Connector in your on-premises data center. In short, this connector will act as a bridge between your external users and web application that is running on-premises. 
 
 1. Sign-in portal.azure.com 
-2. Browse to Azure AD | Application Proxy
+2. Browse to Azure AD and click **Application Proxy**
 3. Click **download a connector**
 
     ![](/images/aadap/aadap_download_connector.png)
@@ -80,11 +80,11 @@ To get started, first you need to install the Application Proxy Connector in you
 
 
 # Publishing On-Premises Web Application
-I have configured a one page web application, the details can be seen <a href="web-app-windows-authentication.md" target="_blank">here</a>. 
+I have configured a one page web application, the details can be seen <a href="https://shahbaz-ahmad.github.io/web-app-windows-authentication/" target="_blank">here</a>. 
 
 To publish this on-premises application to external users:
 
-- Go to Azure Active Directory | Enterprise Applications
+- Go to Azure Active Directory and click **Enterprise Applications**
 - Click **On-premises application**
 
     ![](/images/aadap/aadap_publish_webapp.png)
