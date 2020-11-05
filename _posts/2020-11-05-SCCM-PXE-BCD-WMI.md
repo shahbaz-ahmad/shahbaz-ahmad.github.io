@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Configuring a web application with Windows Authentication
+title:  SCCM PXE Boot Image BCD Class WMI Error 80041002
 categories: [SCCM,PXE,BCD,Multicast]
 ---
 Troubleshooting PXE and Boot image distribution error "Failed to connect to wmi class 'BcdStore' GenerateBootBcd() failed. 80041002".
@@ -9,9 +9,9 @@ Today I received an escalation that the operations team are not able to build co
 
 This service was critical as it relates to the business continuity environment of a major client. 
 
-The service was broken after a SCCM infrastructure upgrade from 1906 to 2002 version.
+The service was broken after a SCCM infrastructure were upgrade from 1906 to 2002 version.
 
-The operational teams had already tried uninstallation of WDS and distribution point role, and reinstallation but the problem wasn't resolved.
+The operational teams had already tried uninstallation of WDS and distribution point, and reinstallation of these roles but the problem didn't resolved.
 
 Upon troubleshooting, noticed that the boot image distribution after SCCM upgrade was failing.
 Looking into the log files on distribution point, found the following error:
