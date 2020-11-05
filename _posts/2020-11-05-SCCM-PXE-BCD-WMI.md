@@ -5,13 +5,10 @@ categories: [SCCM,PXE,BCD,Multicast]
 ---
 Troubleshooting PXE and Boot image distribution error "Failed to connect to wmi class 'BcdStore' GenerateBootBcd() failed. 80041002".
 
-Today I received an escalation that the operations team are not able to build computers over the network (Distribution Point, PXE & multicast). 
+---
+After the SCCM infrastructure upgrade from 1906 to 2002 version, updated boot image distribution on to few distribution points were broken. This resulted in a problem for end-users to build workstations over the network boot.
 
-This service was critical as it relates to the business continuity environment of a major client. 
-
-The service was broken after a SCCM infrastructure were upgrade from 1906 to 2002 version.
-
-The operational teams had already tried uninstallation of WDS and distribution point, and reinstallation of these roles but the problem didn't resolved.
+The operations team did try uninstallation of WDS and distribution point, and reinstallation of these roles but the problem didn't resolved. So an escalation came to me.
 
 Upon troubleshooting, noticed that the boot image distribution after SCCM upgrade was failing.
 Looking into the log files on distribution point, found the following error:
