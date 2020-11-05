@@ -19,7 +19,9 @@ GenerateBootBcd() failed. 80041002.
 Failed adding image G:\RemoteInstall\SMSImages\PRD007C9\boot.PRD007C9.wim. Will Retry.. Not found (Error: 80041002; Source: WMI)
 ```
 
-![](/images/sccm/SCCM_PXE_BCD_80041002.png)
+    ![](/images/sccm/sccm_pxe_bcd_80041002.png)
+
+
 
 ### Troubleshooting & Solution
 The error in log file above is pointing to the BCD store classes in WMI repository. To check if these WMI classes are available, log on the distribution point and run the following PowerShell command:
@@ -61,7 +63,7 @@ Verify that the BCD classes are now present by running the PowerShell command:
 
 The output will look similar to this:
 
-![](/images/sccm/SCCM_PXE_BCD_Classes.png)
+![](/images/sccm/sccm_pxe_bcd_classes.png)
 
 
 You can now distribute the boot images and verify that the error in the log file has disappeared. 
