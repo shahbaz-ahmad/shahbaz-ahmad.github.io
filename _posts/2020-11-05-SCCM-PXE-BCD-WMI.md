@@ -63,7 +63,9 @@ Verify that the BCD classes are now present by running the PowerShell command:
 ```gwmi -name root\wmi -list bcd*```
 
 The output will look similar to this:
+
 ![](/images/sccm/SCCM_PXE_BCD_Classes.png)
+
 
 You can now distribute the boot images and verify that the error in the log file has disappeared. 
 
