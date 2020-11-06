@@ -12,15 +12,16 @@ Shahbaz is a Technical Consultant, Solution Architect and Engineer mastering in 
 
 Shahbaz starting his professional career in IT after completing "Master of Computer Science" degree in 2004, back in Lahore, Pakistan. At the beggining of his career, he started as a Software Engineer creating Windows based software using C# (.NET Framework). He further progressed in programming by creating Web Applications and improving SEO (Search Engine Optimization) techniques. In addition, he also built custom forms and workflows using C# for SharePoint based document management systems.
 
-In 2007, Shahbaz was assigned to major Government project that involved not only creating new Software but also design and implementation of the infrastructure for thousands of users who would use that software. This created an opportunity to enhanced his skills towards System Engineering which later became his main focused area of expertise.
+In 2007, Shahbaz was assigned to major Government project that involved not only creating new Software but also design and implementation of the infrastructure for thousands of users who would use that software. This created an opportunity to enhance his skills towards System Engineering which later became his main focused area of expertise.
 
 Shahbaz has worked with many products and technologies over the years. Some of his work and skills as follows (in sequence since 2007):
+**On-Premise Private Cloud**
 - Design and implementing identity management using Active Directory Directory Services (AD DS)
 - Design and implementing PKI with AD Certificate Services
 - Migration of identities from old Active Directory hierarichies to the newly established Active Directory
 - Virtualized and consolidated physical server infrastructure with System Center Virtual Machine Manager (SCVMM) and Hyper-V to save hardware costs
 - Design and implementing collaboration and unified communication solutions with Exchange Server, SharePoint Farm and Lync (a.k.a. Skype for Business)
-- Migration of users mailbox from old to new Exchange infrastructure with zero impact
+- Migration of users' mailbox from old to new Exchange infrastructure with zero impact
 - Introduced document management and collaboration solution in the organizations by designing and implementing SharePoint and Project Server
 - Designed, implemented and migrated many SQL Servers and hundreds of databases from old hardware to new hardware, retaining same SQL Server names without breaking many application connections (zero data loss)
 - Designed a standard operating environment for team of Software Developers and introduced Visual Studio Teams Server for product code sharing
