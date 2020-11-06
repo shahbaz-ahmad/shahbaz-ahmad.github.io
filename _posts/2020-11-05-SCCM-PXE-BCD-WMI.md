@@ -19,8 +19,7 @@ GenerateBootBcd() failed. 80041002.
 Failed adding image G:\RemoteInstall\SMSImages\PRD007C9\boot.PRD007C9.wim. Will Retry.. Not found (Error: 80041002; Source: WMI)
 ```
 
-    ![](/images/sccm/sccm_pxe_bcd_80041002.png)
-
+![](/images/sccm/sccm_pxe_bcd_80041002.png)
 
 
 ### Troubleshooting & Solution
