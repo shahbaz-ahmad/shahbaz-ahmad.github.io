@@ -75,7 +75,7 @@ An alternate method is to download redist files on another machine that has inte
 
 - Now to force SCCM to pick up the newly downloaded files quickly either restart the Server, or SMS_EXEC service or only SMS_DMPDownloader thread.
 
-- To restart SMS_DMPDownloader thread, open the SCCM Console and go to Monitoring | System Status | Site Status
+- To restart SMS_DMPDownloader thread, open the SCCM Console and go to *Monitoring \ System Status \ Site Status*
 
 - On the ribbon menu, click Start and open **Configuration Manager Service Manager**
 ![](/images/sccm/sccm_2006_service_manager.png)
