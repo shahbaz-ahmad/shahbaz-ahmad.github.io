@@ -97,4 +97,4 @@ The above fix worked in my customer(s) environment where Proxy was blocking the 
 
 However, in addition to the above, sometimes you may need to reset the update package by using **CMUpdateReset.exe** utility where Proxy is not an issue.
 
-More about this later as it is time for a coffee braak now !!
+More about this later as it is time for a coffee break now !!
